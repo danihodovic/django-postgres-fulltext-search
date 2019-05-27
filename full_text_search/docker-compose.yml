@@ -1,0 +1,13 @@
+---
+version: '2.4'
+services:
+  postgres:
+    image: postgres:11-alpine
+    ports:
+      - '5432:5432'
+    environment:
+      # Set the Postgres environment variables for bootstrapping the default
+      # database and user.
+      POSTGRES_DB: "my_db"
+      POSTGRES_USER: "me"
+      POSTGRES_PASSWORD: "password"

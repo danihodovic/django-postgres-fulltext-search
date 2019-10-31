@@ -1,4 +1,6 @@
-![django-postgres](./django_postgres_fulltext_search_small.png)
+<p align="center">
+  <img style="width: 80%" src="https://i.imgur.com/mo9yolX.png">
+</p>
 
 # Full text search with Django and Postgres
 
